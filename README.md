@@ -1,6 +1,6 @@
 # Gender Change of People's Face using CycleGAN
 ## Summary
-We implement the CycleGAN architecture in Keras and train the model with CelebA faces dataset to perform gender change on people's faces. There are two main scripts in the code - `test.py` and `train.py`
+We implement the CycleGAN architecture in Keras and train the model with CelebA faces dataset to perform gender change on people's faces. There are two main scripts in the code - `predict.py` and `train.py`
 
 ## Environment Setup
 Download the codebase and open up a terminal in the root directory. Make sure python 3.6 is installed in the current environment. Then execute 
@@ -42,7 +42,7 @@ At the end of training, the output of this code is the model weights of the two 
 * discriminatorB.h5 - 10.5MB
 
 ## Testing
-Once the model is trained, the model file should be in the same folder as the test script with the name: *generatorAToB.h5* and *generatorBToA.h5*. The test data should be in *--data_dir* parameter in the folder structure as described above. Using the *--batch_size* flag, you can specify home many test images should get modified.
+Once the model is trained, the model file should be in the same folder as the test script with the name: *generatorAToB.h5* and *generatorBToA.h5*. The test data should be in *--data_dir* parameter in the folder structure as described above. Using the *--batchSize* flag, you can specify home many test images should get modified.
 
 You can test the model by running:
 
