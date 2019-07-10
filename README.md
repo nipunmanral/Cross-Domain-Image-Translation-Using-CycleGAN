@@ -13,7 +13,7 @@ The data used in this project is obtained from the [CelebA Dataset](http://mmlab
 
 ## Training 
 
-By default, you can put the data in **data/male_female/** directory. The training and test data should be provided in 4 seperate directories as: 
+By default, you can put the data in **Code/data/male_female/** directory. The training and test data should be provided in 4 seperate directories as: 
 * trainA - images of male faces for training
 * trainB - images of female faces for training
 * testA - images of male faces for testing
