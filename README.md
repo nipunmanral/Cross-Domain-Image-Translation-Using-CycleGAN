@@ -51,4 +51,4 @@ You can test the model by running:
 The results will be generated in *Code/results* folder. Create two folders *m2f* and *f2m* inside the results folder. The corresponding transformations will appear in these two folders. The results will contain - fake, real, reconstructed and identity images.
 
 ## Video
-Youtube Video of the project: https://www.youtube.com/watch?v=PgPfN3v4lG4&t=404s
+Project Video: https://www.youtube.com/watch?v=PgPfN3v4lG4&t=404s
