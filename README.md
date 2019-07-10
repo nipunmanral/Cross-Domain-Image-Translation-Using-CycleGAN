@@ -42,10 +42,10 @@ At the end of training, the output of this code is the model weights of the two 
 * discriminatorB.h5 - 10.5MB
 
 ## Testing
-Once the model is trained, the model file should be in the same folder as the test script with the name: *generatorAToB.h5* and *generatorBToA.h5*. The test data shold be in *--data_dir* parameter in the folder structure as described above. Using the *--batch_size* flag, you can specify home many test images should get modified.
+Once the model is trained, the model file should be in the same folder as the test script with the name: *generatorAToB.h5* and *generatorBToA.h5*. The test data should be in *--data_dir* parameter in the folder structure as described above. Using the *--batch_size* flag, you can specify home many test images should get modified.
 
 You can test the model by running:
 
-    python test.py
+    python predict.py
 
-The results will be generated in *results* folder. Create two folders *m2f* and *f2m* inside the results folder. The corresponding transformations will appear in these two folders. The results will contain - fake, real, reconstructed and identity images.
+The results will be generated in *Code/results* folder. Create two folders *m2f* and *f2m* inside the results folder. The corresponding transformations will appear in these two folders. The results will contain - fake, real, reconstructed and identity images.
